@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Kami - Parfum Elegan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    nav {
+      background: white;
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 2px solid #eee;
+      font-weight: bold;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #764ba2;
+    }
+    .main-layout {
+      display: flex;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .sidebar {
+      width: 200px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .content {
+      flex: 1;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .profile-box {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #764ba2;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+    footer a {
+      color: #764ba2;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .marquee-box {
+      background: #fffbea;
+      border: 1px dashed #ffd54f;
+      border-radius: 8px;
+      padding: 12px;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .main-layout {
+        flex-direction: column;
+      }
+      .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>✨ TENTANG PARFUM ELEGAN</h1>
+    <p>Berdiri sejak 2020 • Berbasis di Kota Bandung</p>
+  </header>
+
+  <!-- MENU -->
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="tentang.html">Tentang Kami</a> |
+    <a href="transaksi.html">Checkout</a>
+  </nav>
+
+  <div class="container">
+    <div class="main-layout">
+      
+      <!-- SIDEBAR KIRI -->
+      <div class="sidebar">
+        <h3>📍 Kontak Langsung</h3>
+        <p>📱 WhatsApp:<br> <strong>0812-XXXX-XXXX</strong></p>
+        <p>📧 Email:<br> info@parfumelegan.id</p>
+        <p>📸 IG:<br> @parfumelegan</p>
+        <br>
+        <div class="marquee-box">
+          <marquee direction="up" scrollamount="2" height="70">
+            🚚 Tersedia COD Bandung Raya!<br>
+            💬 Balas cepat via WA!<br>
+            ✅ Respon dalam 5 menit
+          </marquee>
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="content">
+        <h2 style="text-align: center; color: #555;">Tentang Perusahaan</h2>
+        <p>
+          Parfum Elegan adalah toko parfum premium yang berdiri sejak tahun 2020 di <strong>Kota Bandung</strong>. 
+          Kami menyediakan berbagai macam parfum original dengan aroma tahan lama, harga terjangkau, 
+          dan pelayanan ramah untuk seluruh pelanggan di Indonesia.
+        </p>
+        <p>
+          Berlokasi strategis di pusat kota Bandung, kami melayani pengiriman ke seluruh Indonesia, 
+          serta menyediakan layanan <em>Cash on Delivery (COD)</em> untuk wilayah Bandung dan sekitarnya.
+        </p>
+
+        <div class="profile-box">
+          <h2 style="margin-top: 30px;">👤 Kontak Kami</h2>
+          <!-- GANTI NAMA DI SINI -->
+          <h3 style="color: #764ba2; margin: 10px 0;">Irfan Lukmanul Hakim</h3>
+          <p style="margin: 5px 0;">Owner & Founder, Parfum Elegan</p>
+          <!-- GANTI FOTO DI SINI -->
+          <img src="https://via.placeholder.com/150?text=Foto+Anda" alt="Foto Ahmad Fauzi" class="profile-img">
+          <p style="margin-top: 10px;"><strong>Lokasi:</strong> Kota Bandung, Jawa Barat</p>
+        </div>
+
+        <h3 style="margin-top: 30px; color: #555;">Jam Operasional</h3>
+        <ul>
+          <li>Senin – Jumat: 08.00 – 20.00 WIB</li>
+          <li>Sabtu – Minggu: 09.00 – 18.00 WIB</li>
+        </ul>
+      </div>
+
+      <!-- SIDEBAR KANAN -->
+      <div class="sidebar">
+        <h3>🏆 Testimoni</h3>
+        <div class="marquee-box">
+          <marquee direction="up" scrollamount="2" height="100">
+            “Parfumnya wangi banget, tahan seharian!” – Rina, Bandung<br>
+            “Packing rapi, kurir cepat, recomended!” – Dedi, Jakarta<br>
+            “Saya langganan sejak 2022, gak pernah kecewa!” – Siti, Surabaya
+          </marquee>
+        </div>
+        <br>
+        <h3>🏪 Lokasi</h3>
+        <p>Jl. Cihampelas No. 123<br>
+        Kel. Coblong, Kec. Coblong<br>
+        <strong>Kota Bandung, Jawa Barat 40131</strong></p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Parfum Elegan – Berbasis di Kota Bandung</p>
+    <a href="tentang.html">Tentang Kami</a> |
+    <a href="index.html">Produk</a>
+  </footer>
+</body>
+</html>
